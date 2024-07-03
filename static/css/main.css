@@ -492,10 +492,10 @@ section,
   font-size: 64px;
   font-weight: 700;
   color: #0d823e;
-  box-shadow: -4px 4px 100% rgba(0, 0, 0, 0.1), -6px 6px 20px rgba(0, 0, 0, 0.1); /* Adjusted for left-side shadow */
-  border-radius: 5%; /* Optional: Add rounded corners */
+  box-shadow: -20px 20px 100% rgba(0, 0, 0, 0.1), -6px 6px 20px rgba(0, 0, 0, 0.1); /* Adjusted for left-side shadow */
+  border-radius: 10%; /* Optional: Add rounded corners */
   /*text-decoration: underline %; /* Add underline */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Apply shadow to the text */
+  text-shadow: -10px 10px 10px rgba(0, 0, 0.3, 0.3); /* Apply shadow to the left side of the text */
 
   /* Apply stroke */
   -webkit-text-stroke: 2px rgb(253, 253, 253); /* For Safari */
@@ -517,7 +517,7 @@ section,
   box-shadow: -4px 4px 100% rgba(0, 0, 0, 0.1), -6px 6px 20px rgba(0, 0, 0, 0.1); /* Adjusted for left-side shadow */
   border-radius: 5%; /* Optional: Add rounded corners */
   /*text-decoration: underline %; /* Add underline */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Apply shadow to the text */
+  text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3); /* Apply shadow to the text */
 
   /* Apply stroke */
   -webkit-text-stroke: 1px #11635f; /* For Safari */
@@ -530,6 +530,7 @@ section,
 .hero p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
+  text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3); /* Apply shadow to the text */
 }
 
 .hero .social-links {
